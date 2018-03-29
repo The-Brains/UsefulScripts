@@ -1,0 +1,3 @@
+function searchHistory {
+	history | grep "$*"
+}
